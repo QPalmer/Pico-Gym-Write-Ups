@@ -1,5 +1,5 @@
 # Lets Warm Up
-* **Points:** 10
+* **Points:** 50
 * **Category:** General Skills
 
 ### Description
