@@ -10,7 +10,7 @@ There are a lot of conversion calculators online and I was able to use one of th
 
 But what does this mean? 
 
-A Base 10 model would look like this 
+A Base 10 model would look like this:
 
 `0 1 2 3 4 5 6 7 8 9`
 
