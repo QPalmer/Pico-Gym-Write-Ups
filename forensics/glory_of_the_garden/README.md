@@ -3,9 +3,12 @@
 * **Category:** Forensics
 
 ### Description
-> This garden contains more than it seems.
+> This <a href="https://raw.githubusercontent.com/QPalmer/Pico-Gym-Write-Ups/master/forensics/glory_of_the_garden/garden.jpg">garden</a>contains more than it seems.
 
 > *hint:* What is a hex editor?
+
+![photo of garden with stone path](https://raw.githubusercontent.com/QPalmer/Pico-Gym-Write-Ups/master/forensics/glory_of_the_garden/garden.jpg)
+
 
 ### Solution
 Had to use a hint after opening the file in VS code wasn't getting me anywhere. 
