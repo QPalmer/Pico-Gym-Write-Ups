@@ -13,7 +13,7 @@
 Not my first grep. What **is** grep? <br>
 
 Grep is a great way to find things within files and across multiple files at once. <br>
-I like to think of it as a crtl+f that doesn't require you to even open the file that you're searching in. 
+I like to think of it as a crtl+f that doesn't require you to even open the file that you're searching in. <br>
 The genesis of GREP has to do with early text editors using regular expressions with those text editors. <br>
 
 The GREP origin story:<br>
