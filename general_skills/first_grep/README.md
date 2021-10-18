@@ -12,14 +12,15 @@
 ## Solution
 Not my first grep. What **is** grep? <br>
 
-The genesis of has to do with early text editors using regular expressions with those text editors. <br>
+Grep is a great way to find things within files and across multiple files at once. <br>
+I like to think of it as a crtl+f that doesn't require you to even open the file that you're searching in. 
+The genesis of GREP has to do with early text editors using regular expressions with those text editors. <br>
 
-Where GREP Came From:<br>
+The GREP origin story:<br>
 https://www.youtube.com/watch?v=NTfOnGZUZDk
 
 * g/re/p
 * **g**lobal/**re**gex/**p**rint 
-
 
 Was able to solve this challenge by downloading the file and "grepping?" for the beginning of the flag: 
 
