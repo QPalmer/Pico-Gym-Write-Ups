@@ -1,11 +1,12 @@
 # The Numbers
 * **Points:** 50
 * **Category:** Cryptography
+* **Challenge Year:** 2019
 
-### Description
+## Description
 > The <a href ="https://github.com/QPalmer/Pico-Gym-Write-Ups/blob/master/cryptography/the_numbers/the_numbers.png">numbers...</a> what do they mean?
 
-### Solution
+## Solution
 
 We need to find the flag in this image: 
 ![Image of numbers in MS Paint](https://raw.githubusercontent.com/QPalmer/Pico-Gym-Write-Ups/master/cryptography/the_numbers/the_numbers.png)
@@ -44,5 +45,5 @@ It probably wasn't necessary to write a script to do transpose the numbers into 
 I hard coded the numbers above into this script: <a href= "https://github.com/QPalmer/Pico-Gym-Write-Ups/blob/master/cryptography/the_numbers/my_caesar_cipher.py#L35">my_caesar_cipher.py</a></b> which returns a the following string: 
 thenumbersmason
 
-**flag:**
+:black_flag: **flag:**
 `picoCTF{thenumbersmason}`

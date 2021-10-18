@@ -1,11 +1,12 @@
 # 2 Warm
 * **Points:** 50
 * **Category:** General Skills
+* **Challenge Year:** 2019
 
-### Description
+## Description
 > Can you convert the number 42 (base 10) to binary (base 2)?
 
-### Solution
+## Solution
 
 As previously discovered, it's much easier to convert to binary from hexidecimal (base 16) rather than decimal (base 10).
 
@@ -52,5 +53,5 @@ A = 1010
 
 *Someone* should write up a beautiful conversion table for personal use. Good idea for a project moving forward. 
 
-**flag:**
+:black_flag: **flag:**
 `picoCTF{101010}`

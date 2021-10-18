@@ -1,16 +1,17 @@
 # Glory of the Garden
 * **Points:** 50
 * **Category:** Forensics
+* **Challenge Year:** 2019
 
-### Description
+## Description
 > This <a href="https://raw.githubusercontent.com/QPalmer/Pico-Gym-Write-Ups/master/forensics/glory_of_the_garden/garden.jpg">garden</a>contains more than it seems.
-
+>
 > *hint:* What is a hex editor?
-
+>
 ![photo of garden with stone path](https://raw.githubusercontent.com/QPalmer/Pico-Gym-Write-Ups/master/forensics/glory_of_the_garden/garden.jpg)
 
 
-### Solution
+## Solution
 Had to use a hint after opening the file in VS code wasn't getting me anywhere. 
 
 Opened garden.jpg in iHex
@@ -26,5 +27,5 @@ For future referrence "picoCTF{" in Hexidecimal is
 This might come in handy to find flags when these challenges start getting difficult. 
 
 
-**flag:**
+:black_flag: **flag:**
 `picoCTF{more_than_m33ts_the_3y3eBdBd2cc}`

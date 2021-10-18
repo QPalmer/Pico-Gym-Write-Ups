@@ -1,6 +1,7 @@
 # Bases
 * **Points:** 100
 * **Category:** Generald Skills
+* **Challenge Year**: 2019
 
 ## Description
 > What does this `bDNhcm5fdGgzX3IwcDM1` mean? 
@@ -55,7 +56,6 @@ So we've successfully converted the base64 string `bDHn` into the ASCII string `
 
 Knowing that I *could* continue this process, I'm more comfortable with using an existing decoder to finish the rest of the process. 
 
-
 Sources: 
 <ul>
 <li>https://www.base64decode.org/</li>
@@ -63,5 +63,5 @@ Sources:
 <li>https://allthewebtools.com/base64-encode#base64_index_table</li>
 </ul>
 
-- **flag:**
+- :black_flag: **flag:**
 `picoCTF{l3arn_th3_r0p35}`

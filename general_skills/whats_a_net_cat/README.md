@@ -2,10 +2,10 @@
 * **Points:** 100
 * **Category:** General Skills
 
-### Description
+## Description
 > Using netcat (nc) is going to be pretty important. Can you connect to jupiter.challenges.picoctf.org at port 25103 to get the flag?
 
-### Solution
+## Solution
 
 PicoCTF has a webshell that can be used to solve challenges. Firing that up, it was easy to use nc to call the url and port to get the flag. 
 
@@ -20,5 +20,5 @@ I have a lot of questions about what net cat is actually used for. Most of the t
 https://www.varonis.com/blog/netcat-commands/
 
 
-**flag:**
+:black_flag: **flag:**
 `picoCTF{nEtCat_Mast3ry_d0c64587}`

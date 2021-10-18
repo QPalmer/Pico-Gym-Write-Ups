@@ -1,9 +1,13 @@
 # Easy1
 * **Points:** 100
 * **Category:** Cryptography
+* **Challenge Year:** 2019
 
-### Description
-> The one time pad can be cryptographically secure, but not when you know the key. Can you solve this? We've given you the encrypted flag, key, and a table to help UFJKXQZQUNB with the key of SOLVECRYPTO. Can you use this table to solve it?.
+## Description
+> The one time pad can be cryptographically secure, but not when you know the key. Can you solve this? 
+> We've given you the encrypted flag, key, and a table to help UFJKXQZQUNB with the key of SOLVECRYPTO. 
+> Can you use this table to solve it?.
+> 
 
 
 ```
@@ -38,7 +42,7 @@ Z | Z A B C D E F G H I J K L M N O P Q R S T U V W X Y
 ```
 
 
-### Solution
+## Solution
 
 This is called a <a href="https://www.youtube.com/watch?v=SkJcmCaHqS0">Vigenère Cipher</a>. You can use a key and the above table to encrypt/decrypt text.
 The cipher text is just the letter by letter interseciton of the plaintext one axis of the table and the key on the other. 
@@ -65,5 +69,4 @@ Cipher Text: `UFJKXQZQUNB`
 
 Plain Text: `CRYPTOISFUN`
 
-**flag:**
-`picoCTF{CRYPTOISFUN}`
+ :black_flag: **flag:**`picoCTF{CRYPTOISFUN}`
