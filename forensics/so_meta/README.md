@@ -11,6 +11,6 @@
 ## Solution
 I was able to find the flag by opening the file in iHex and looking at the plaintext pane. Pretty simple! 
 
-https://raw.githubusercontent.com/QPalmer/Pico-Gym-Write-Ups/master/forensics/so_meta/iHex.png
+![iHex screenshot](https://raw.githubusercontent.com/QPalmer/Pico-Gym-Write-Ups/master/forensics/so_meta/iHex.png)
 
 :black_flag: **flag:**`picoCTF{s0_m3ta_eb36bf44}`

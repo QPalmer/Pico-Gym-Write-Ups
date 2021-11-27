@@ -12,7 +12,7 @@
 ## Solution
 <p>The header of a file is a good place to start. Lo and behold, are those the letters PNG?!</p>
 
-https://raw.githubusercontent.com/QPalmer/Pico-Gym-Write-Ups/master/forensics/extensions/pngmaybe.png
+![binary file screenshot](https://raw.githubusercontent.com/QPalmer/Pico-Gym-Write-Ups/master/forensics/extensions/pngmaybe.png)
 
 </p>I changed the extenstion of the .txt file to .png to see if that would get it to open as an image. It's amazing when stuff 'just works'. The file was an image all along that contains the flag.</p>
 

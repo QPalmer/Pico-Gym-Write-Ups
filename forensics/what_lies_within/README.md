@@ -8,6 +8,8 @@
 >
 > Hint: There is data encoded somewhere... there might be an online decoder.
 
+![photo of church buildings](https://raw.githubusercontent.com/QPalmer/Pico-Gym-Write-Ups/master/forensics/what_lies_within/buildings.png)
+
 ## Solution
 <p> The hint was very useful for this problem. I opened buildings.png in an hex editor but didn't get anywhere. Web searched for 'online decoder for hidden messages in png' and this site was the first result https://stylesuxx.github.io/steganography/. The I uploaded the buildings.png to the site and was given the flag.</p>
 
