@@ -22,5 +22,7 @@ https://www.wireshark.org/docs/wsug_html_chunked/ChAdvFollowStreamSection.html <
 
 <p>I was able to find some control+f matches under the UDP packets so I followed the directions from the article to look at the UDP stream. Protocol streams help you look at packets in the same way an application might. I was able to move through the UDP stream with Wireshark until the flag was returned</p>
 
+https://raw.githubusercontent.com/QPalmer/Pico-Gym-Write-Ups/master/forensics/shark_on_wire_1/flag.png
+
 
 :black_flag: **flag:**`picoCTF{StaT31355_636f6e6e}`
