@@ -1,5 +1,7 @@
 |Challenge Name|Point Value|Category|
 |------------------|----|------------------|
+|<a href="https://github.com/QPalmer/Pico-Gym-Write-Ups/tree/master/cryptography/la_cifra_de">La Cifra De</a>|200|Cryptography|
+|<a href="https://github.com/QPalmer/Pico-Gym-Write-Ups/tree/master/general_skills/based">Based</a>|200|General Skills|
 |<a href="https://github.com/QPalmer/Pico-Gym-Write-Ups/tree/master/forensics/shark_on_wire_1">Shark On Wire 1</a>|150|Forensics|
 |<a href="https://github.com/QPalmer/Pico-Gym-Write-Ups/tree/master/forensics/so_meta">So Meta</a>|150|Forensics|
 |<a href="https://github.com/QPalmer/Pico-Gym-Write-Ups/tree/master/forensics/extensions">Extensions</a>|150|Forensics|
