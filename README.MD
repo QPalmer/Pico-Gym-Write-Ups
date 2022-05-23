@@ -1,5 +1,9 @@
 |Challenge Name|Point Value|Category|
 |------------------|----|------------------|
+|<a href="https://github.com/QPalmer/Pico-Gym-Write-Ups/tree/master/cryptography/rsa_pop_quiz">RSA Pop Quiz</a>|200|Cryptography|
+|<a href="https://github.com/QPalmer/Pico-Gym-Write-Ups/tree/master/cryptography/minirsa">miniRSA</a>|300|Cryptography|
+|<a href="https://github.com/QPalmer/Pico-Gym-Write-Ups/tree/master/cryptography/b00tl3grsa2">b00tl3gRSA2</a>|400|Cryptography||
+|<a href="https://github.com/QPalmer/Pico-Gym-Write-Ups/tree/master/cryptography/b00tl3grsa3">b00tl3gRSA3</a>|450|Cryptography||
 |<a href="https://github.com/QPalmer/Pico-Gym-Write-Ups/tree/master/cryptography/la_cifra_de">La Cifra De</a>|200|Cryptography|
 |<a href="https://github.com/QPalmer/Pico-Gym-Write-Ups/tree/master/general_skills/based">Based</a>|200|General Skills|
 |<a href="https://github.com/QPalmer/Pico-Gym-Write-Ups/tree/master/forensics/shark_on_wire_1">Shark On Wire 1</a>|150|Forensics|

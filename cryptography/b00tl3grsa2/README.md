@@ -1,0 +1,53 @@
+# b00tl3gRSA2
+* **Points:** 400
+* **Category:** Cryptography
+* **Challenge Year:** 2019
+
+## Description
+> In RSA d is a lot bigger than e, why don't we use d to encrypt instead of e? Connect with nc jupiter.challenges.picoctf.org 18243.
+>
+> **Hint:** What is e generally?
+
+## Solution
+Generally? `e = 65537` But WHY? <br>
+https://crypto.stackexchange.com/questions/3110/impacts-of-not-using-rsa-exponent-of-65537
+<br>
+
+The challege gives us a value for `e`, but this is actually the `d` value. They've given away the private key!<br>
+1. **To "Encrypt"** we use the general value for `e`. This actually gives us a value that returrs a "plaintext" value in ASCII range. `plaintext = (ciphertext^65537) % n`
+2. **To "Decrypt"** we'll use the `e` value provided (actually the D value). To prove it's actually the `d` value we'll see if "decrypted" value is the same as the `c` value that we started with. `ciphertext = (plaintext^d) % n`
+
+```python
+# variables from 'ciphertext.text'
+c = 63587588543737389885455160637813250261234968055128320517702548016332331516971399159111507800803342684061820599052755015787875749499466708176979283749515511146639325840624743513518325259965425676271613025196542127712305960235960070206997650696500777658304431292343903103071665166916389468426732010407767443624
+n = 93493702421312560912873763761758978703490462866397785756521397878434413295689965678933996499360444343419624342893296715772873856507528954847898364188527398805542585542613382756962639425419162853716357796468526374904908496376248707245636709854063756889123278428856637292373606542499971971879930251793074969439
+e = 77497473035619322810488034890120004868828538150269211490261507520150007902025751797342118586924283664371693437345857314000421126705754046464702850850322128675468782448868333663592930246735449491647516127916174145025562521363350449679698447988326836174837906016532730213257076538013177280315169659130686888385
+
+# encrypt using a real e value
+plaintext = pow(c,65537,n)
+
+# decrypt with "e" (which is actually the d value)
+ciphertext = pow(plaintext, e, n)
+
+# encryption and decryption formulas are the same. e to encrypt, d to decrypt. 
+if ciphertext == c: 
+    print("Don't give away your private key!")
+
+# convert to hex, then convert to string
+hexstring = hex(plaintext)
+hexstring = hexstring[2:]
+bytes_object = bytes.fromhex(hexstring)
+ascii_string = bytes_object.decode("ASCII")
+print(f"FLAG:{ascii_string}")
+```
+
+
+Run the script!
+<br>
+
+```
+$ python3 bootlegrsa2.py 
+Don't give away your private key!
+FLAG:picoCTF{bad_1d3a5_4783252}
+```
+:black_flag: **flag:**`picoCTF{bad_1d3a5_4783252}`
